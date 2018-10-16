@@ -18,6 +18,10 @@ header {
     font-family: 'Charmonman', cursive;
     
 }
+
+.quizbody {
+    display: none
+}
 /* Included the Google Font 'Charmonman' and a cool parchment paper background, however the display on the 
 right side of the body is not correct. */
 .mainbody{
@@ -28,7 +32,8 @@ right side of the body is not correct. */
     /* background: rgb(196, 196, 50); */
     width: 600px;
     height: 2000px;
-    border-style: 10px gold;
+    border-style: 10px gold; 
+    /* border-style not in effect somehow */
     padding: 10px;
     margin: 10px;
     margin-left: auto;

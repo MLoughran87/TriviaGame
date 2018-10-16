@@ -1,5 +1,6 @@
 <!DOCTYPE <!DOCTYPE html>
 <html>
+
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,48 +9,55 @@
     <link rel="stylesheet" type="text/css" media="screen" href="../TriviaGame/assets/css/style.css" />
     <link href="https://fonts.googleapis.com/css?family=Charmonman" rel="stylesheet">
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <script  src ="../TriviaGame/assets/javascript/app.js"></script>
 </head>
+
 <body>
     <div>
         <header>Trivia Game</header>
         <div class="mainbody">
-            <div id="start"> Start</div>
+            <div id="start"> Start
+                <button type="button" id="startbutton">Start Game</button>
+            </div>
             <br>
-            <div id="countdown">Time Remaining: </div>
-            <!-- There is a CSS bootstrap code to make the questions horizontal you can lookup and implement if you
+            <div class="quizbody">
+                <div id="countdown"> </div>
+                <!-- There is a CSS bootstrap code to make the questions horizontal you can lookup and implement if you
             go here "https://www.w3schools.com/bootstrap/tryit.asp?filename=trybs_form_radio_inline" -->
-            <div id="quiztime"> Quiztime</div>
-            <H3>Which of Napoleon's Marshals was nicknamed "The bravest of the brave"?</H3>
-            <form>
-                    <input type="radio" name="question1" value="MarshallNey" checked> Marshal Ney<br>
-                    <input type="radio" name="question1" value="MarhsalGrouchy"> Marshal Grouchy<br> 
+                <div id="quiztime"> Quiztime</div>
+                <H3>Which of Napoleon's Marshals was nicknamed "The bravest of the brave"?</H3>
+                <form>
+                    <input type="radio" name="question1" value="MarshallNey"> Marshal Ney<br>
+                    <input type="radio" name="question1" value="MarhsalGrouchy"> Marshal Grouchy<br>
                     <input type="radio" name="question1" value="MarshallWellington"> Marshal Wellington
-                  </form>
-            <br>
-            <H3>What was Napoleon's last major battle?</H3>
-            <form>
-                    <input type="radio" name="question2" value="Waterloo" checked> Waterloo<br>
-                    <input type="radio" name="question2" value="Bordino"> Bordino<br> 
-                    <input type="radio" name="question2" value="Austerlitz"> Austerlitz 
-                  </form>
-            <br>
-            <H3>Where was Napoleon born?</H3>
-            <form>
-                    <input type="radio" name="question3" value="GenoaItaly" checked> Genoa, Italy <br>
-                    <input type="radio" name="question3" value="ParisFrance"> Paris, France<br> 
+                </form>
+                <br>
+                <H3>What was Napoleon's last major battle?</H3>
+                <form>
+                    <input type="radio" name="question2" value="Waterloo"> Waterloo<br>
+                    <input type="radio" name="question2" value="Bordino"> Bordino<br>
+                    <input type="radio" name="question2" value="Austerlitz"> Austerlitz
+                </form>
+                <br>
+                <H3>Where was Napoleon born?</H3>
+                <form>
+                    <input type="radio" name="question3" value="GenoaItaly"> Genoa, Italy <br>
+                    <input type="radio" name="question3" value="ParisFrance"> Paris, France<br>
                     <input type="radio" name="question3" value="AjjacoCorsica"> Ajjaco, Corsica
-                  </form>
-            <br>
-            <H3>What was the major contribution Napoleon's Eqyptian Campaign contribute to culture?</H3>
-            <form>
-                    <input type="radio" name="question4" value="Kingtutstomb" checked> Discovered King Tuts tomb<br>
-                    <input type="radio" name="question4" value="blewthenoseoffthesphinx"> Blew the nose off the Sphinx<br> 
+                </form>
+                <br>
+                <H3>What was the major contribution Napoleon's Eqyptian Campaign contribute to culture?</H3>
+                <form>
+                    <input type="radio" name="question4" value="Kingtutstomb"> Discovered King Tuts tomb<br>
+                    <input type="radio" name="question4" value="blewthenoseoffthesphinx"> Blew the nose off the Sphinx<br>
                     <input type="radio" name="question4" value="therosettastone"> The Rosetta Stone
-                  </form>
-            <br>
-            <div id="results">results</div>
+                </form>
+                <br>
+                <div id="results">results</div>
+            </div>
         </div>
     </div>
+    <script src="../TriviaGame/assets/javascript/app.js"></script>
+
 </body>
+
 </html>
