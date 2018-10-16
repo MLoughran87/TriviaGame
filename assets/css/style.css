@@ -18,7 +18,8 @@ header {
     font-family: 'Charmonman', cursive;
     
 }
-/* Included the Google Font 'Charmonman' and a cool parchment paper background*/
+/* Included the Google Font 'Charmonman' and a cool parchment paper background, however the display on the 
+right side of the body is not correct. */
 .mainbody{
     display: block;
     /* background-image : url(http://api.thumbr.it/whitenoise-361x370.png?background=ffffffff&noise=5c5c5c&density=13&opacity=62); */
@@ -27,7 +28,7 @@ header {
     /* background: rgb(196, 196, 50); */
     width: 600px;
     height: 2000px;
-    border: 10px gold;
+    border-style: 10px gold;
     padding: 10px;
     margin: 10px;
     margin-left: auto;
