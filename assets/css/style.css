@@ -30,7 +30,7 @@ right side of the body is not correct. */
     /* background-image : url(http://api.thumbr.it/whitenoise-361x370.png?background=cfd698ff&noise=ebebe8&density=62&opacity=45); */
     background-image: url(../images/Parchment-Body.png);
     /* background: rgb(196, 196, 50); */
-    width: 600px;
+    width: 53%;
     height: 2000px;
     border-style: 10px gold; 
     /* border-style not in effect somehow */
