@@ -5,10 +5,10 @@ body {
 }
 
 header {
-    background: white;
+    background: rgb(231, 215, 121);
     display: block;
     width: 400px;
-    border: 10px solid green;
+    border: 10px solid gold;
     padding: 10px;
     margin: 10x;
     margin-left: auto;
@@ -34,8 +34,8 @@ right side of the body is not correct. */
     height: 2000px;
     border-style: 10px gold; 
     /* border-style not in effect somehow */
-    padding: 10px;
-    margin: 10px;
+    padding: 15px;
+    margin: 15px;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
@@ -45,17 +45,17 @@ right side of the body is not correct. */
 
 
 #start {
-    background: orange;
+    background: rgb(35, 35, 209);
     text-align: center;
 
 }
 
 #quiztime {
-    background: blue;
+    background: rgb(111, 111, 202);
     text-align: center;
 }
 
 #results {
-    background: violet;
+    background: rgb(235, 8, 8);
     text-align: center;
 }

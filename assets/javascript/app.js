@@ -12,7 +12,7 @@
 //  
 
 // }
-var number = 100;
+var number = 30;
 var quizBody;
 // var for correct, wrong, and unaswered questions
 var correctAnswer = 0;
@@ -45,6 +45,8 @@ function stop() {
 
     clearInterval(intervalId);
     submitscore();
+    $(".quizbody").hide();
+    $("#results").show();
 }
 
 
@@ -146,7 +148,7 @@ function wrongAnswers (){
 
 function submitscore (){
     $("#results").html("Correct: " + correctAnswer);
-    $("#results").htnl("Wrong: " + wrongAnswer);
+    $("#results").append("<br>" + "Wrong: " + wrongAnswer);
     console.log (correctAnswer);
     console.log(wrongAnswer);
 }
@@ -156,4 +158,4 @@ function submitscore (){
 $("#startbutton").click(run);
 
 
-$("#submit").click(stop);
+$("#submitbutton").click(stop);
