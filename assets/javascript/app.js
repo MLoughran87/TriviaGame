@@ -44,6 +44,7 @@ function decrement() {
 function stop() {
 
     clearInterval(intervalId);
+    submitscore();
 }
 
 
@@ -139,7 +140,20 @@ function rightAnswers() {
 
 }
 
+function wrongAnswers (){
+
+}
+
+function submitscore (){
+    $("#results").html("Correct: " + correctAnswer);
+    $("#results").htnl("Wrong: " + wrongAnswer);
+    console.log (correctAnswer);
+    console.log(wrongAnswer);
+}
 // Event Handlers 
 
 
 $("#startbutton").click(run);
+
+
+$("#submit").click(stop);
