@@ -31,14 +31,17 @@ function decrement() {
     number--;
 
     $("#countdown").html("Time Remaining:" + number);
-
-    // if (number === 0) {
-
-    //   stop();
-
-    //   alert("Time Up!");
     console.log(number);
-    // }
+    if (number === 0) {
+  
+        alert("Time Up!");
+
+      stop();
+
+      
+
+   
+    }
 }
 
 function stop() {
@@ -159,3 +162,11 @@ $("#startbutton").click(run);
 
 
 $("#submitbutton").click(stop);
+
+// Errors i am aware of 
+// 1. If you click on multiple buttons, it will continuously increase the score of the right or 
+// wrong answers. 
+
+// 2. the website is not responsive, mobile or otherwise. 
+// 3. i never got to the point where i was able to incorporate bootstrap css methods. 
+// 4. The css is not completed but i am feeling better about it. 
